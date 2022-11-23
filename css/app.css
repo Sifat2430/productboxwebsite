@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+header{
+    background: hwb(60 85% 11%);
+    padding: 40px 0px;
+}
+.container{
+    align-items: center;
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+.logo{width:15%}
+.logo a{
+   text-decoration: none;
+   color:rgb(231, 0, 231);
+   font-size: 30px;
+   font-weight: 900;
+   display: block;
+   text-align: center;
+}
+.logo span{
+    color: #303030;
+}
+nav{
+width:70%
+}
+nav ul{
+list-style: none;
+
+    display:flex;
+} 
+nav ul li{
+ 
+} 
+nav ul li a{
+  font-size:20px;
+    color:#303030;
+    padding:10px 30px;
+    text-decoration: none;
+    font-weight: 700;
+    display:inline-block;
+} 
+nav ul li a:hover{
+
+} 
+.cart{
+
+}
+.cart ul{
+    width:15%;
+    display: flex;
+    list-style: none;
+}
+.cart ul li{
+    padding: 10px;
+    font-size: 20px;
+    color:#303030;
+}
+
+
+
+
+.productsection{
+    padding: 100px 0;
+}
+.column-1-3{
+    width: 33.33%;
+    padding: 15px;
+}
+
+
+
+
+
+img{
+    max-width: 100%;
+}
+.productbox{
+    box-shadow: 0px 5px 20px #00000010;
+    padding: 20px;
+    border-radius: 4px;
+}
+.productbox img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+} 
+.productbox h2{
+    font-size: 22px;
+    font-weight: 600;
+margin-top: 10px;
+    
+}
+.productbox h3{
+    font-size: 30px;
+}
+.productbox h3 u{
+    font-weight: 200;
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: 20px;
+}
+.variant{
+    padding: 15px 0;
+}
+.variant h6{
+    margin: 0;
+    font-size: 20px;
+}
+.variant ul{
+    list-style: none;
+    display: flex;
+    
+}
+.variant ul li{
+padding: 10px 7px;
+}
+.variant ul li input{
+    display: none;
+}
+.size ul li label{
+    font-size: 22px;
+    padding: 5px 20px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.size ul li input + label:hover{
+    background-color: #303030;
+    color: #fff;
+}
+.size ul li input:checked + label{
+    background-color: #303030;
+    color: #fff;
+}
+.color ul li label{
+    font-size: 22px;
+    padding: 5px 20px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.color ul li #red + label{
+    background:red;
+    opacity: 0.8;
+}
+.color ul li #blue + label{
+    background:blue;
+    0.8
+}
+.color ul li #yello + label{
+    background:yellow;
+    0.8
+}
+.color ul li input:checked + label{
+    background-color: #303030;
+    color: #fff;
+    opacity: 1;
+}
+.add-to-cart{
+    background-color: rgb(59, 99, 232);
+    border: 1px solid rgb(59, 99, 232);
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 22px;
+    color: #fff;
+}
+.add-to-cart i{}
+
+footer{
+    background-color: #303030;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p{
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+footer p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    border-bottom: solid 2px;
+    padding-bottom: 5px;
+}
